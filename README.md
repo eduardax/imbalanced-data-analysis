@@ -1,42 +1,28 @@
-📊 Imbalanced Data Analysis
-Este repositório contém um notebook extraído de um projeto maior desenvolvido como parte do Trabalho de Conclusão de Curso (TCC), com foco na análise e tratamento de dados desbalanceados em problemas de classificação.
+# 📊 Imbalanced Data Analysis
 
-O notebook concentra-se na aplicação de técnicas de oversampling com a biblioteca imbalanced-learn, análise exploratória com pandas-profiling e visualização de dados com matplotlib e seaborn.
+Este repositório contém um notebook extraído de um projeto maior desenvolvido como parte do Trabalho de Conclusão de Curso (TCC), com foco na análise e tratamento de **dados desbalanceados** em problemas de classificação.
 
-🧠 Objetivo
-Investigar e aplicar abordagens para lidar com o desbalanceamento de classes em datasets de classificação, explorando o impacto dessas técnicas no desempenho de modelos de aprendizado de máquina supervisionado.
+## 🧠 Objetivo
 
-🧰 Ferramentas e Bibliotecas
-Python: linguagem principal
+Aplicar técnicas de balanceamento de dados para melhorar o desempenho de modelos de classificação supervisionada, analisando o impacto no comportamento das métricas de avaliação.
 
-Pandas, NumPy: manipulação e análise de dados
+## 📁 Conteúdo
 
-Imbalanced-learn: técnicas de oversampling (SMOTE, ADASYN, etc.)
+- `imbalanced_data_notebook.ipynb`: Notebook contendo o pipeline de pré-processamento, análise de distribuição de classes e aplicação de técnicas de oversampling como SMOTE, ADASYN, entre outras.
 
-Scikit-learn: modelagem, avaliação e pipelines
+## 🧰 Tecnologias e Bibliotecas
 
-Matplotlib, Seaborn: visualização de dados
+- **Python**
+- **pandas**, **numpy**
+- **scikit-learn**
+- **imbalanced-learn**
+- **matplotlib**, **seaborn**
+- **pandas-profiling**
+- **tqdm**
 
-Pandas Profiling: análise exploratória automática
+## ⚙️ Instalação
 
-Torch: usado para compatibilidade com etapas posteriores do projeto original (não é utilizado diretamente neste notebook)
+Instale as dependências com:
 
-📂 Estrutura
-imbalanced_data_notebook.ipynb: notebook com código comentado e estruturado, demonstrando a preparação, balanceamento e avaliação de modelos.
-
-⚠️ Observações
-Este notebook representa um recorte do projeto completo de TCC, com foco específico no tratamento de dados desbalanceados.
-
-As saídas foram removidas do notebook para facilitar a visualização e versionamento no GitHub.
-
-O conteúdo pode ser expandido ou adaptado para outros conjuntos de dados com problemas semelhantes.
-
-📌 Requisitos
-Instale as dependências necessárias com:
-
-bash
-Copiar
-Editar
+```bash
 pip install pandas-profiling imbalanced-learn tqdm seaborn matplotlib scikit-learn
-📈 Resultados Esperados
-Após aplicar as técnicas de oversampling, o notebook permite visualizar a melhora na distribuição das classes e avaliar o desempenho dos modelos com métricas como acurácia, matriz de confusão e relatório de classificação.
